@@ -27,3 +27,10 @@ php artisan serve
 http://localhost:8000.
 
 
+
+https://i.ibb.co/PhLHgDY/foto000.png
+
+https://i.ibb.co/qp2Z62t/fotooooooooooooooo.png
+
+
+![Texto alternativo](https://i.ibb.co/PhLHgDY/foto000.png)
