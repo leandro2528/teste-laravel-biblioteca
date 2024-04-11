@@ -13,7 +13,16 @@ class LivroController extends Controller
         $livros = Livro::orderBy('created_at', 'desc')->with('tb_genero')->get();
         $tb_generos = Tb_genero::all();
 
-        return view('livros.index', ['livros'=>$livros, 'tb_generos'=>$tb_generos,]);
+        // Contagem de livros alugados
+        $livrosAlugados = Livro::where('estado', 'alugado')->count();
+
+         // Contagem de livros resercados
+         $livrosReservados = Livro::where('estado', 'reservado')->count();
+
+          // Contagem de livros disponiveis
+        $livrosDisponiveis = Livro::where('estado', 'disponivel')->count();
+
+        return view('livros.index', ['livros'=>$livros, 'tb_generos'=>$tb_generos, 'livrosAlugados'=>$livrosAlugados, 'livrosReservados'=>$livrosReservados, 'livrosDisponiveis'=>$livrosDisponiveis]);
     }
 
     public function create() {

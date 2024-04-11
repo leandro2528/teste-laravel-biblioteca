@@ -59,7 +59,7 @@
                                         </span>
                                 </div>
                                 <div class="card-body">
-                                    
+                                    @if(count($livros))
                                     <table id="datatablesSimple" class="table table-hover table-striped table-bordered">
                                         <thead>
                                             <tr>
@@ -111,6 +111,11 @@
                                             @endforeach
                                         </tbody>
                                     </table>
+                                    @else 
+                                        <div class="alert alert-info">
+                                            Não exite livros cadastrado nesta tabela.
+                                        </div>
+                                    @endif
                                 </div>
                             </div>
                         </div>
@@ -118,5 +123,11 @@
             </div>
         </div>
     </div>
+
+    <div class="card-body">
+                            <p>Livros Alugados: {{ $livrosAlugados }}</p>
+                            <p>Livros Reservados: {{ $livrosReservados }}</p>
+                            <p>Livros Disponíveis: {{ $livrosDisponiveis }}</p>
+                        </div>
 
 </x-app-layout>

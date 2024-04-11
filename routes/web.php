@@ -6,6 +6,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\TbGeneroController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\LivroController;
+use App\Http\Controllers\DisponivelController;
 
 
 /*
@@ -43,6 +44,10 @@ Route::prefix('/livros')->group(function() {
 
 Route::prefix('dashboards')->group(function() {
     Route::get('/', [DashboardController::class, 'index'])->middleware(['auth', 'verified'])->name('dashboards-index');
+});
+
+Route::prefix('/disponivels')->group(function() {
+    Route::get('/', [DisponivelController::class, 'index'])->name('disponivels-index');
 });
 
 Route::middleware('auth')->group(function () {
