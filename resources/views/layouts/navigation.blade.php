@@ -18,7 +18,7 @@
                     <x-nav-link :href="route('generos-index')">
                         {{ __('GÊNEROS') }}
                     </x-nav-link>
-                    <x-nav-link :href="route('dashboards-index')">
+                    <x-nav-link :href="route('livros-index')">
                         {{ __('LIVROS') }}
                     </x-nav-link>
                 </div>

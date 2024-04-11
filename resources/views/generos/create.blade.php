@@ -8,7 +8,7 @@
                     
                     </div>
                     
-                    <div class="row my-5">
+                    <div class="row my-2">
                         <div class="col">
                             <div class="card">
                             <div class="card-header">
@@ -27,7 +27,7 @@
                                     @csrf
                                     <div class="form-group my-3">
                                         <label for="">Nome</label>
-                                        <input type="text" class="form-control" name="nome">
+                                        <input type="text" class="mt-1 p-2 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50" name="nome">
                                     </div>
                                     <div class="form-group my-3">
                                         <input type="submit" class="btn btn-primary btn-sm" value="Cadastrar">

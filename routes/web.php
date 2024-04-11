@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\TbGeneroController;
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\LivroController;
 
 
 /*
@@ -29,6 +30,15 @@ Route::prefix('/generos')->group(function() {
     Route::get('/{id}edit', [TbGeneroController::class, 'edit'])->where('id', '[0-9]+')->name('generos-edit');
     Route::put('/{id}', [TbGeneroController::class, 'update'])->where('id', '[0-9]+')->name('generos-update');
     Route::delete('/{id}', [TbGeneroController::class, 'destroy'])->where('id', '[0-9]+')->name('generos-destroy');
+});
+
+Route::prefix('/livros')->group(function() {
+    Route::get('/', [LivroController::class , 'index'])->name('livros-index');
+    Route::get('/create', [LivroController::class, 'create'])->name('livros-create');
+    Route::post('/', [LivroController::class, 'store'])->name('livros-store');
+    Route::get('/{id}edit', [LivroController::class, 'edit'])->where('id', '[0-9]+')->name('livros-edit');
+    Route::put('/{id}', [LivroController::class, 'update'])->where('id', '[0-9]+')->name('livros-update');
+    Route::delete('/{id}', [LivroController::class, 'destroy'])->where('id', '[0-9]+')->name('livros-destroy');
 });
 
 Route::prefix('dashboards')->group(function() {

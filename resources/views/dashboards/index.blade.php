@@ -11,7 +11,7 @@
                                 <div class="card-footer d-flex align-items-center justify-content-between">
                                     <a class="d-flex small text-white stretched-link" href="">
                                         <h4>Total de livros:</h4>
-                                        <h5>00</h5>
+                                        <h5>0{{ $totalLivros }}</h5>
                                     </a>
                                     <div class="small text-white"><i class="fas fa-angle-right"></i></div>
                                 </div>
@@ -65,7 +65,7 @@
                                         </span>
                                 </div>
                                 <div class="card-body">
-                                    @if($tb_generos)
+                                    @if(count($tb_generos))
                                         <table id="datatablesSimple" class="table table-hover table-striped table-bordered">
                                             <thead>
                                                 <tr>

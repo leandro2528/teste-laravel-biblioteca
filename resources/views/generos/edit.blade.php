@@ -8,7 +8,7 @@
                     
                     </div>
                     
-                    <div class="row my-5">
+                    <div class="row my-2">
                         <div class="col">
                             <div class="card">
                             <div class="card-header">
@@ -28,7 +28,7 @@
                                     @method('put')
                                     <div class="form-group my-3">
                                         <label for="">Nome</label>
-                                        <input type="text" class="form-control" value="{{ $tb_generos->nome }}" name="nome">
+                                        <input type="text" class="mt-1 p-2 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50" value="{{ $tb_generos->nome }}" name="nome">
                                     </div>
                                     <div class="form-group my-3">
                                         <input type="submit" class="btn btn-warning btn-sm" value="Atualizar">
