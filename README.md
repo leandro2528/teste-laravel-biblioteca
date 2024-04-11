@@ -14,7 +14,7 @@ Passos de Instalação
     cd teste-laravel-biblioteca
 
 
-## Configure as credenciais do banco de dados no arquivo .env. Altere as variáveis ​​DB_HOST, DB_PORT, DB_DATABASE, DB_USERNAME e DB_PASSWORD conforme necessário.
+Configure as credenciais do banco de dados no arquivo .env. Altere as variáveis ​​DB_HOST, DB_PORT, DB_DATABASE, DB_USERNAME e DB_PASSWORD conforme necessário.
 
 ## Execute as migrações do banco de dados para criar as tabelas:
     php artisan migrate
