@@ -124,10 +124,4 @@
         </div>
     </div>
 
-    <div class="card-body">
-                            <p>Livros Alugados: {{ $livrosAlugados }}</p>
-                            <p>Livros Reservados: {{ $livrosReservados }}</p>
-                            <p>Livros Disponíveis: {{ $livrosDisponiveis }}</p>
-                        </div>
-
 </x-app-layout>

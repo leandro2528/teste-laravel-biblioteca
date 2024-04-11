@@ -47,6 +47,7 @@
                                         <div class="form-group my-3">
                                             <label for="">Estado</label>
                                             <select class="block appearance-none w-full bg-white border border-gray-300 text-gray-700 py-2 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500"name="estado" id="estado">
+                                                <option value="disponivel">-- Selecione um estado --</option>
                                                 <option value="disponivel">Disponível</option>
                                                 <option value="reservado">Reservado</option>
                                                 <option value="alugado">Alugado</option>
