@@ -26,6 +26,7 @@ php artisan serve
 ## Acesse a aplicação em seu navegador através do endereço 
 http://localhost:8000.
 
+<img src="https://i.ibb.co/PhLHgDY/foto000.png" alt="Logo do meu projeto" width="100">
 
 
 
