@@ -48,6 +48,7 @@
                                         </span>
                                 </div>
                                 <div class="card-body">
+                                    @if(count($tb_generos))
                                     <table id="datatablesSimple" class="table table-hover table-striped table-bordered">
                                         <thead>
                                             <tr>
@@ -84,6 +85,11 @@
                                             @endforeach
                                         </tbody>
                                     </table>
+                                    @else
+                                        <div class="alert alert-info">
+                                            Não exitem GÊNEROS cadastrado nesta tabela.
+                                        </div>
+                                    @endif
 
                                     {{ $tb_generos->links() }}
 
