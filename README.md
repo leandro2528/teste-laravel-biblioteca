@@ -26,19 +26,9 @@ php artisan serve
 ## Acesse a aplicação em seu navegador através do endereço 
 http://localhost:8000.
 
-<img src="https://i.ibb.co/PhLHgDY/foto000.png" alt="Logo do meu projeto" width="100">
 
 
-
-
-![Texto alternativo](https://i.ibb.co/PhLHgDY/foto000.png){:width="200"}
-
-
-![Texto alternativo](https://i.ibb.co/PhLHgDY/foto000.png){:width="200"}
-
-![Texto alternativo](https://i.ibb.co/WDrWCc5/foto01.png){:width="200"}
-
-
-![Texto alternativo](https://i.ibb.co/X72VzRy/foto-2.png){:width="200"}
-
-![Texto alternativo](https://i.ibb.co/wMwch0h/foto-3.png){:width="200px"}
+<img src="https://i.ibb.co/PhLHgDY/foto000.png" alt="Logo do meu projeto" width="300">
+<img src="https://i.ibb.co/WDrWCc5/foto01.png" alt="Logo do meu projeto" width="300">
+<img src="https://i.ibb.co/X72VzRy/foto-2.png" alt="Logo do meu projeto" width="300">
+<img src="(https://i.ibb.co/wMwch0h/foto-3.png" alt="Logo do meu projeto" width="300">
