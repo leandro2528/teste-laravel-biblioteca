@@ -9,7 +9,7 @@
                             <div class="card bg-primary text-white mb-4">
                                 <div class="card-body">Livros</div>
                                 <div class="card-footer d-flex align-items-center justify-content-between">
-                                    <a class="d-flex small text-white stretched-link" href="#">
+                                    <a class="d-flex small text-white stretched-link" href="">
                                         <h4>Total de livros:</h4>
                                         <h5>00</h5>
                                     </a>
@@ -21,7 +21,7 @@
                             <div class="card bg-warning text-white mb-4">
                                 <div class="card-body">Gêneros</div>
                                 <div class="card-footer d-flex align-items-center justify-content-between">
-                                    <a class="d-flex small text-white stretched-link" href="#">
+                                    <a class="d-flex small text-white stretched-link" href="{{ route('generos-index') }}">
                                         <h4>Total de gêneros:</h4>
                                         <h5> 0{{ $totalTb_generos }} </h5>
                                     </a>

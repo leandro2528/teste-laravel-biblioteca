@@ -9,7 +9,7 @@ use App\Models\Tb_genero;
 class TbGeneroController extends Controller
 {
     public function index() {
-        $tb_generos = Tb_genero::orderBy('id', 'desc')->paginate(2);
+        $tb_generos = Tb_genero::orderBy('id', 'desc')->paginate(10);
         return view('generos.index', ['tb_generos'=>$tb_generos]);
     }
 
