@@ -28,9 +28,16 @@ http://localhost:8000.
 
 
 
-https://i.ibb.co/PhLHgDY/foto000.png
-
-https://i.ibb.co/qp2Z62t/fotooooooooooooooo.png
 
 
-![Texto alternativo](https://i.ibb.co/PhLHgDY/foto000.png)
+![Texto alternativo](https://i.ibb.co/PhLHgDY/foto000.png){:width="200"}
+
+
+![Texto alternativo](https://i.ibb.co/PhLHgDY/foto000.png){:width="200"}
+
+![Texto alternativo](https://i.ibb.co/WDrWCc5/foto01.png){:width="200"}
+
+
+![Texto alternativo](https://i.ibb.co/X72VzRy/foto-2.png){:width="200"}
+
+![Texto alternativo](https://i.ibb.co/wMwch0h/foto-3.png){:width="200"}
