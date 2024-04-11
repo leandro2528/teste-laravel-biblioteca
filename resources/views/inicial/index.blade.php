@@ -14,7 +14,7 @@
                 @endguest
 
                 @auth
-                    <a class="btn btn-primary btn-sm" href="{{ route('dashboard') }}">Painel Inicial</a>
+                    <a class="btn btn-primary btn-sm" href="{{ route('dashboards-index') }}">Painel Inicial</a>
                 @endauth
             </p>
         </div>
