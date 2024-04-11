@@ -40,4 +40,4 @@ http://localhost:8000.
 
 ![Texto alternativo](https://i.ibb.co/X72VzRy/foto-2.png){:width="200"}
 
-![Texto alternativo](https://i.ibb.co/wMwch0h/foto-3.png){:width="200"}
+![Texto alternativo](https://i.ibb.co/wMwch0h/foto-3.png){:width="200px"}
