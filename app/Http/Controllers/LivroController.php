@@ -66,7 +66,7 @@ class LivroController extends Controller
 
         session()->flash('warning', 'Livro editado com sucess!');
 
-        return redirect()->route('dashboards-index');
+        return redirect()->route('dashboard');
     }
 
     public function destroy($id) {
