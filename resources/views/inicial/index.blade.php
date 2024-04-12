@@ -50,7 +50,7 @@
                                 @endguest
 
                                 @auth
-                                    <a class="btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder" href="{{ route('dashboards-index') }}">Painel Inicial</a>
+                                    <a class="btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder" href="{{ route('dashboard') }}">Painel Inicial</a>
                                 @endauth
                             </div>
                         </div>
