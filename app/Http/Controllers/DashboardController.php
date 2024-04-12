@@ -27,6 +27,6 @@ class DashboardController extends Controller
           // Contagem de livros disponiveis
         $livrosDisponiveis = Livro::where('estado', 'disponivel')->count();
 
-        return view('dashboards.index', ['livros'=>$livros, 'tb_generos'=>$tb_generos, 'totalTb_generos'=>$totalTb_generos, 'totalLivros'=>$totalLivros, 'livrosAlugados'=>$livrosAlugados, 'livrosReservados'=>$livrosReservados, 'livrosDisponiveis'=>$livrosDisponiveis]);
+        return view('dashboard', ['livros'=>$livros, 'tb_generos'=>$tb_generos, 'totalTb_generos'=>$totalTb_generos, 'totalLivros'=>$totalLivros, 'livrosAlugados'=>$livrosAlugados, 'livrosReservados'=>$livrosReservados, 'livrosDisponiveis'=>$livrosDisponiveis]);
     }
 }

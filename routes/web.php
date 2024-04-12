@@ -42,8 +42,8 @@ Route::prefix('/livros')->group(function() {
     Route::delete('/{id}', [LivroController::class, 'destroy'])->where('id', '[0-9]+')->name('livros-destroy');
 });
 
-Route::prefix('dashboards')->group(function() {
-    Route::get('/', [DashboardController::class, 'index'])->middleware(['auth', 'verified'])->name('dashboards-index');
+Route::prefix('dashboard')->group(function() {
+    Route::get('/', [DashboardController::class, 'index'])->middleware(['auth', 'verified'])->name('dashboard');
 });
 
 Route::prefix('/disponivels')->group(function() {
